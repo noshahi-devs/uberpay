@@ -1,0 +1,122 @@
+*{
+
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+
+.main-box{
+    position: relative;
+    background-image: url(bbbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        
+    background-position: center;    
+    background-attachment: fixed;
+
+    height: 100vh;
+    width: 100%;
+
+    
+}
+
+.main-box .sidebar-menu{
+
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.2)
+}
+
+.sidebar-menu .logo{
+
+    position: absolute;
+    height:60px ;
+    width: 100%;
+    box-shadow:0 0 6px rgba(255,255,255,0.3);
+}
+
+.sidebar-menu .logo a{
+    position: absolute;
+    color: #fff;
+    font-size:25px ;
+    font-weight:500 ;
+    text-decoration: none;
+    line-height: 60px;
+    left:50px;
+
+}
+
+.sidebar-menu .menu{
+
+position: absolute;
+top: 80px;
+width:100% ;
+
+}
+
+.sidebar-menu .menu li{
+
+margin-top:6px ;
+padding:14px 20px ;
+transition: all 0.2s linear;
+
+
+}
+
+.sidebar-menu .menu i{
+
+color: #fff;
+font-size: 20px;
+padding-right:8px ;
+}
+
+.sidebar-menu .menu a{
+
+color: #fff;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.sidebar-menu .menu li:hover{
+
+
+    border-left:1px solid #fff;
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+}
+
+
+.profile-box {
+    position: fixed;
+    left: 0px;
+    bottom: 20px;
+}
+
+.profile-box a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 18px;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14px;
+    transition: 0.3s ease;
+}
+
+.profile-box a i {
+    font-size: 30px; /* BIG icon */
+}
+
+.profile-box a span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-box a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
